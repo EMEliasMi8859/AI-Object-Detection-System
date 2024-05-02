@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Viewer</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <script src="{{ url_for('static', filename='jquery-3.6.0.min.js') }}"></script>
+</head>
+<body>
+    <div id="image-container">
+    	<h3 id="id">the results</h3>
+    	<img id='img_trg' src="{{ url_for('static', filename='Raw_Images/image_file.jpg') }}"  width="300" height="400">
+    	<img id='img_prd' src="{{ url_for('static', filename='Raw_Images/prediction_file.jpg') }}"  width="300" height="400">
+        <!-- Images will be loaded here -->
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

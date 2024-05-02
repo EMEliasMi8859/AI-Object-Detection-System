@@ -1,0 +1,1 @@
+[['person', 'center', tensor(394.43399), tensor(479.54681)], ['bed', 'center', tensor(473.03217), tensor(487.13309)], ['cat', 'near left', tensor(83.82356), tensor(65.17358)]]

@@ -1,0 +1,13 @@
+body{
+	background: lightblue;
+}
+
+#image-container{
+	background: lightpink;
+}
+
+img{
+	border: 3px solid gray;
+	border-radius: 12px;
+}
+
